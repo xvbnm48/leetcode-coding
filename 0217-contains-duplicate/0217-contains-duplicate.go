@@ -9,8 +9,10 @@
 // }
 
 func containsDuplicate(nums []int) bool {
+    // make seen for store value in slice of array bool
     seen := make(map[int]bool)
     
+    // for loop for range of nums 
     for _, num := range nums {
         if seen[num] {
             return true 
