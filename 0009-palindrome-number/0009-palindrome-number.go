@@ -1,5 +1,5 @@
 func isPalindrome(x int) bool {
-	// Negative numbers are not palindromes
+	// check Negative numbers are not palindromes
 	if x < 0 {
 		return false
 	}
